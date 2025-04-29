@@ -3,8 +3,8 @@
 
 A scalable microservices application built with Python, Docker, Kubernetes (EKS), MongoDB, PostgreSQL, and RabbitMQ. This project demonstrates a cloud-native architecture for handling authentication, file uploads, audio conversion, and notifications.
 
-![Uploading ProjectArchitecture.svg…]()
 
+C:/Users/NV_User/Downloads/ProjectArchitecture.drawio.svg
 
 
 ---
