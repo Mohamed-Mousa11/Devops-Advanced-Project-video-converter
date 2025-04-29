@@ -181,6 +181,10 @@ aws eks update-kubeconfig --name microservices --region us-east-1
 ### 6️⃣ Building and Pushing Docker Images
 
 - 🔨 Built **Docker Image** for **Auth Service**.
+  ![building images for auth service](https://github.com/user-attachments/assets/294ec5c1-f998-4994-b996-d0d4910dcd75)
+
+  ![done build image for auth sucess](https://github.com/user-attachments/assets/c0c39240-e775-4ca5-8d2a-b95638302475)
+
     
 - 🚀 Pushed the Auth service image to **DockerHub**.
     
@@ -192,30 +196,43 @@ aws eks update-kubeconfig --name microservices --region us-east-1
 ### 7️⃣ Deploy Microservices on Kubernetes
 
 - 🚀 Deployed **Auth Service** pods.
+  ![autch service create pods](https://github.com/user-attachments/assets/eaafc72d-2eec-4d02-9b8f-68ab0577c74d)
+
     
 - 🚀 Deployed **Gateway Service** pods.
+  ![gateway serv create pods](https://github.com/user-attachments/assets/1a34f1d7-75c6-46c1-896e-6bf3c4db8154)
+
     
 - 🚀 Deployed **Converter Service** pods.
+  ![converter service create pods](https://github.com/user-attachments/assets/d9826991-df98-4376-84f8-031982813705)
+
     
 - 🔽 Scaled down **Converter Service** replicas from 4 ➡️ 2:
-    
 
 ```bash
 kubectl scale deployment converter --replicas=2
 ```
+   ![scale down conv serv](https://github.com/user-attachments/assets/dc18c474-8452-4054-b1c0-b7383e0bb5b7)
 
 - 🚀 Deployed **Notification Service** pods.
-    
+    ![notification serv create pods](https://github.com/user-attachments/assets/ee862db2-92c7-4219-8b43-9c3ab9f73f58)
 
 ---
 
 ### 8️⃣ API Functionality Verification
 
 - 🔑 **Login Endpoint** tested successfully! (`/api/login`)
+    ![api working](https://github.com/user-attachments/assets/9feeb9a2-3949-4c45-a4bb-ef8a2aa6ec5a)
+
     
 - ⬆️ **Upload API** tested successfully! (`/api/upload`)
+    ![upload succes](https://github.com/user-attachments/assets/5ef2b94c-9037-4f6f-8c2e-21406d509d5c)
+
     
 - 🎵 MP3 file successfully generated after upload!
+    ![mp3 generated succes](https://github.com/user-attachments/assets/e5fb1bbf-3be1-488a-852b-9d8d3d3907f5)
+  
+    ![validation](https://github.com/user-attachments/assets/8f483f73-e5a9-441c-a21a-bd9ae301fe14)
 
 ---
 
@@ -264,3 +281,11 @@ Here’s a quick list of important commands used:
 - Security groups must allow traffic on MongoDB, PostgreSQL, RabbitMQ, and application ports.
     
 - DockerHub credentials should be set up securely when pulling private images in Kubernetes.
+
+---
+
+## 📜 **Troubleshooting**  
+- **EKS Connection Issues**: Ensure `aws eks update-kubeconfig` runs correctly.  
+- **Database Connection Failures**: Check Helm release status (`helm ls`).  
+- **RabbitMQ Queues**: Verify queues are created in the management UI.  
+
