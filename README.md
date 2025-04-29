@@ -1,5 +1,4 @@
-# Devops-Advanced-Project-video-converter
-# 🚀 Microservices Python App with EKS, Docker, and Kubernetes  
+# 🚀 Devops-Advanced-Project-video-converter  
 
 A scalable microservices application built with Python, Docker, Kubernetes (EKS), MongoDB, PostgreSQL, and RabbitMQ. This project demonstrates a cloud-native architecture for handling authentication, file uploads, audio conversion, and notifications.
 
@@ -212,7 +211,7 @@ aws eks update-kubeconfig --name microservices --region us-east-1
 ```bash
 kubectl scale deployment converter --replicas=2
 ```
-   ![scale down conv serv](https://github.com/user-attachments/assets/dc18c474-8452-4054-b1c0-b7383e0bb5b7)
+  ![scale down conv serv](https://github.com/user-attachments/assets/dc18c474-8452-4054-b1c0-b7383e0bb5b7)
 
 - 🚀 Deployed **Notification Service** pods.
     ![notification serv create pods](https://github.com/user-attachments/assets/ee862db2-92c7-4219-8b43-9c3ab9f73f58)
