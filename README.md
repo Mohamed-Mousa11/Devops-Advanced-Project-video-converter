@@ -124,11 +124,11 @@ microservices-python-app/
 
         
 - 🖥️ Created **Node Group** for the EKS cluster.
-  ![nodegroup](https://github.com/user-attachments/assets/97565157-55b5-4360-bf45-5d5de68d0f25)
+     ![nodegroup](https://github.com/user-attachments/assets/97565157-55b5-4360-bf45-5d5de68d0f25)
 
     
 - 🔒 Configured **Security Groups** for the Node Group with necessary ports open.
-  ![sg for node group](https://github.com/user-attachments/assets/ee380b30-b52d-4657-aec0-e6463cc0af0a)
+     ![sg for node group](https://github.com/user-attachments/assets/ee380b30-b52d-4657-aec0-e6463cc0af0a)
 
 
 ---
