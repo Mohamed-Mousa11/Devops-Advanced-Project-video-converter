@@ -1,4 +1,4 @@
-![ProjectArchitecture drawio](https://github.com/user-attachments/assets/5ced75dc-aeaa-4234-a7c5-d461ff883283)# Devops-Advanced-Project-video-converter
+# Devops-Advanced-Project-video-converter
 # 🚀 Microservices Python App with EKS, Docker, and Kubernetes  
 
 A scalable microservices application built with Python, Docker, Kubernetes (EKS), MongoDB, PostgreSQL, and RabbitMQ. This project demonstrates a cloud-native architecture for handling authentication, file uploads, audio conversion, and notifications.
